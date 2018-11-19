@@ -23,7 +23,7 @@
 
 ## The First Design Principle
 
-####_Identify the aspects of your application that vary and separate them from what stays the same._
+#### _Identify the aspects of your application that vary and separate them from what stays the same._
 **"Take what varies and _encapsulate_ it so a change in this varying part wont effect the rest of the code."**
 
 * To separate fly() and quack() from Duck class we'll pull both methods out and create a new set of classes to represent each behaviour.
@@ -34,9 +34,9 @@
 
 ## The Second Design Principle
 
-####_Program to an interface, not an implementation._
+#### _Program to an interface, not an implementation._
 
-###The Next Design
+### The Next Design
 * An interface (This is not the typical java interface) represents each behaviour (fly and quack here).
 * **Each implementation of a behaviour will implement one of those interfaces.**
 * This is in contrast to the way we were doing things earlier, where a behaviour wither came from a CONCRETE implementation in the super class or by providing a specialized implementation in the subclass. In both cases we were relying on an implementation.
